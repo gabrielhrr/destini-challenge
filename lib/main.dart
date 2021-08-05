@@ -77,6 +77,7 @@ class _StoryPageState extends State<StoryPage> {
                     onPressed: () {
                       setState(() {
                         //Choice 2 made by user.
+                        storyBrain.nextStory(2);
                       });
                     },
                     style: TextButton.styleFrom(
